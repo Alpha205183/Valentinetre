@@ -135,56 +135,29 @@ html, body {
 
 /* ================= MOBILE RESPONSIVE ================= */
 
+/* ===== MOBILE SAFE FIX ===== */
+
 @media (max-width: 768px) {
 
     .cardValentine {
-        height: 90vh;
+        transform: translate(-50%, -50%) scale(0.8);
     }
 
-        .cardValentine .left,
-        .cardValentine .right {
-            position: relative;
-            left: 0;
-            width: 100%;
-            height: 50%;
-        }
-
-    .rightContent {
-        font-size: 16px;
+    .boxTitle {
+        font-size: 14vw;
+        text-align: center;
+        width: 100%;
     }
 
     .openBtn {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .paperHeart {
         height: 60px;
     }
-
-    .paperHeart1 {
-        left: 5%;
-    }
-
-    .paperHeart2 {
-        left: 20%;
-    }
-
-    .paperHeart3 {
-        left: 35%;
-    }
-
-    .paperHeart4 {
-        left: 50%;
-    }
-
-    .paperHeart5 {
-        left: 65%;
-    }
-
-    .paperHeart6 {
-        left: 80%;
-    }
 }
+
 
 /* Animations */
 
